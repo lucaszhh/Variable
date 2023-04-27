@@ -1,14 +1,6 @@
-﻿![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.001.png)![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.002.png)
 
 **Mi primer sitio web**
 
-|**AUTORÍA**|Lucas Zarandón|
-| - | :-: |
-|**ESPACIO DE CAPACITACIÓN**|Conectar Lab|
-|**DURACIÓN**|2 horas|
-|**FRECUENCIA**|Único encuentro  |
-|**DESTINATARIOS** |12 a 18 años|
-|**FECHA DE INICIO**|Enero / Febrero|
 
 **OBJETIVOS:** 
 
