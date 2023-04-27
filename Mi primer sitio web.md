@@ -18,17 +18,17 @@ Computadoras, Proyector o Televisor, Internet.
 1. Para comenzar a trabajar con nuestro sitio web necesitaremos descargar el template del [repositorio de github](https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB). **Nota:** si llegamos a romper el proyecto y la función deshacer no nos funciona siempre podremos volver a empezar desde el template. Para poder trabajar en nuestro archivo es necesario descargarlo en formato zip, para ello una vez estemos en el link del repositorio debemos:
 1. Clickear sobre el botón verde “ < >  Code ⬇”.
 1. Luego clickear sobre [Download ZIP](https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB/archive/refs/heads/main.zip).
-
-1. Luego de descargarlo tendremos que descomprimirlo, para hacerlo nos dirigimos a la carpeta de descargas y arrastramos nuestro archivo .zip hacia el escritorio o a un lugar que podamos encontrarlo fácilmente. Primero hacemos click derecho sobre el archivo y luego sobre la opción Extraer aquí.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.003.png)
+![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.003.png)
+1. Luego de descargarlo tendremos que descomprimirlo, para hacerlo nos dirigimos a la carpeta de descargas y arrastramos nuestro archivo .zip hacia el escritorio o a un lugar que podamos encontrarlo fácilmente. Primero hacemos click derecho sobre el archivo y luego sobre la opción Extraer aquí.
 1. Una vez descomprimido el archivo procedemos a abrir la herramienta que nos ayudará a editar el código. Les presento a Visual Studio Code (VSC), para poder ejecutar el programa debemos:
    1. En la barra de tareas (parte inferior izquierda de la pantalla), debemos hacer click sobre Aplicaciones.
    1. Luego dirigirnos a Programación.
    1. Por último nos dirigimos a Visual Studio Code.
 1. Una vez dentro de VSC, para poder abrir la carpeta con el template debemos:
-   1. En la barra de herramientas (parte superior izquierda) hacemos click sobre archivo.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.004.png)
+   1. En la barra de herramientas (parte superior izquierda) hacemos click sobre archivo.
    1. Luego abrir carpeta, buscamos mediante el gestor de carpetas la localización de nuestra carpeta recién descomprimida.
    1. Una vez abierta la carpeta en VSC nos debe aparecer la siguiente estructura.
-
+![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.004.png)
 \>**Estilos:** dentro de esta carpeta encontraremos los estilos del sitio web, de esta carpeta sólo nos interesara el archivo con el nombre fotos-carrusel.css.
 
 \>**Funciones:** dentro de esta carpeta nos encontraremos algunas funciones creadas con el lenguaje de programación Javascript, no hay que modificar el archivo que se encuentra dentro.
