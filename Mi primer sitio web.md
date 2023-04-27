@@ -16,9 +16,6 @@ En este encuentro de programación nos encontraremos con HTML (lenguaje de estru
 
 Computadoras, Proyector o Televisor, Internet.
 
-**TEMPLATE DEL SITIO WEB:**
-
-https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB
 
 **DESARROLLO:**
 
