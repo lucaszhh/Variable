@@ -17,7 +17,7 @@ Computadoras, Proyector o Televisor, Internet.
 
 1. Para comenzar a trabajar con nuestro sitio web necesitaremos descargar el template del [repositorio de github](https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB). **Nota:** si llegamos a romper el proyecto y la función deshacer no nos funciona siempre podremos volver a empezar desde el template. Para poder trabajar en nuestro archivo es necesario descargarlo en formato zip, para ello una vez estemos en el link del repositorio debemos:
 1. Clickear sobre el botón verde “ < >  Code ⬇”.
-1. Luego clickear sobre [Download ZIP](https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB/archive/refs/heads/main.zip).
+1. Luego clickear sobre [Download ZIP](https://github.com/LucasZarandon/Mi-primer-sitio-web-conectarLAB/archive/refs/heads/main.zip).     
 ![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.003.png)
 1. Luego de descargarlo tendremos que descomprimirlo, para hacerlo nos dirigimos a la carpeta de descargas y arrastramos nuestro archivo .zip hacia el escritorio o a un lugar que podamos encontrarlo fácilmente. Primero hacemos click derecho sobre el archivo y luego sobre la opción Extraer aquí.
 1. Una vez descomprimido el archivo procedemos a abrir la herramienta que nos ayudará a editar el código. Les presento a Visual Studio Code (VSC), para poder ejecutar el programa debemos:
@@ -27,8 +27,9 @@ Computadoras, Proyector o Televisor, Internet.
 1. Una vez dentro de VSC, para poder abrir la carpeta con el template debemos:
    1. En la barra de herramientas (parte superior izquierda) hacemos click sobre archivo.
    1. Luego abrir carpeta, buscamos mediante el gestor de carpetas la localización de nuestra carpeta recién descomprimida.
-   1. Una vez abierta la carpeta en VSC nos debe aparecer la siguiente estructura.
-![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.004.png)
+   1. Una vez abierta la carpeta en VSC nos debe aparecer la siguiente estructura.     
+![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.004.png)    
+
 \>**Estilos:** dentro de esta carpeta encontraremos los estilos del sitio web, de esta carpeta sólo nos interesara el archivo con el nombre fotos-carrusel.css.
 
 \>**Funciones:** dentro de esta carpeta nos encontraremos algunas funciones creadas con el lenguaje de programación Javascript, no hay que modificar el archivo que se encuentra dentro.
@@ -39,23 +40,23 @@ Computadoras, Proyector o Televisor, Internet.
 
 \>**README.md:** este archivo sirve para mostrar a nuestros espectadores una pequeña descripción de nuestro proyecto en el repositorio.
 
-1. Una vez reconocida nuestra área de trabajo comenzaremos a personalizar nuestro sitio. Iniciamos reconociendo las partes del archivo **index.html**. ![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.005.png)
+7. Una vez reconocida nuestra área de trabajo comenzaremos a personalizar nuestro sitio. Iniciamos reconociendo las partes del archivo **index.html**.      
+![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.005.png)    
 
-Dentro del archivo nos encontraremos con lo que es el lenguaje de etiquetas de HTML, entenderemos este lenguaje como si fueran cajas que dentro pueden tener más cajas, nuestra caja más grande es **<body>** que dentro tenemos todo nuestro sitio web dividido en secciones (**<section>**), iremos trabajando seccion a seccion nuestra aplicación: 
+Dentro del archivo nos encontraremos con lo que es el lenguaje de etiquetas de HTML, entenderemos este lenguaje como si fueran cajas que dentro pueden tener más cajas, nuestra caja más grande es **`<body>`** que dentro tenemos todo nuestro sitio web dividido en secciones "section", iremos trabajando seccion a seccion nuestra aplicación: 
 
-- La sección banner: dentro del elemento **<section class=”banner”>** encontraremos nuestras etiquetas a modificar.
+La sección banner: dentro del elemento **`<section class=”banner”>`** encontraremos nuestras etiquetas a modificar.     
+![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.006.png)
 
-**<h1>** es nuestro título principal, lo que debemos modificar de este elemento es el contenido. 
+**`<h1>`** es nuestro título principal, lo que debemos modificar de este elemento es el contenido. 
 
-<h1>**Este es el contenido de un elemento**<h1>
+**`<p>`** es la descripción que acompaña al título principal también modificaremos el contenido del elemento    
 
-**<p>** es la descripción que acompaña al título principal también modificaremos el contenido del elemento ![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.006.png)
+**`<img>`** es el elemento que posee la imagen dentro del elemento encontraremos el atributo **src=””** entre las comillas nos encontraremos con el link a la imagen, este atributo puede recibir tanto rutas relativas como absolutas y rutas locales como externas, osea internet. ![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.007.png)
 
-**<img>** es el elemento que posee la imagen dentro del elemento encontraremos el atributo **src=””** entre las comillas nos encontraremos con el link a la imagen, este atributo puede recibir tanto rutas relativas como absolutas y rutas locales como externas, osea internet. ![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.007.png)
+Ahora vamos a trabajar con la sección de las imágenes  **<section class=”carrusel”>**. A diferencia de la sección anterior esta sección está implementando el recurso de las imágenes mediante estilos quiere decir que no vamos a modificar el archivo index.html sino que dentro de la carpeta **Estilos** nos encontraremos el archivo **fotos-carrusel.css** Dentro del archivo encontraremos tres propiedades que representan cada una de las imágenes. Para cada imagen tendremos una función **url(“ ”)** que representa el src de los elementos html dentro de ella encontramos envuelta de comillas la ruta hacia la imagen.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.008.png)
 
-- Ahora vamos a trabajar con la sección de las imágenes  **<section class=”carrusel”>**. A diferencia de la sección anterior esta sección está implementando el recurso de las imágenes mediante estilos quiere decir que no vamos a modificar el archivo index.html sino que dentro de la carpeta **Estilos** nos encontraremos el archivo **fotos-carrusel.css** Dentro del archivo encontraremos tres propiedades que representan cada una de las imágenes. Para cada imagen tendremos una función **url(“ ”)** que representa el src de los elementos html dentro de ella encontramos envuelta de comillas la ruta hacia la imagen.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.008.png)
-
-- Dentro de la tercera sección **<section class="informacion">** encontraremos una serie de cartas o artículos **<article>**, cada uno representa la carta virtual en el navegador. Esta cuenta con las siguientes etiquetas a modificar.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.009.png)![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.010.png)![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.011.png)
+Dentro de la tercera sección **<section class="informacion">** encontraremos una serie de cartas o artículos **<article>**, cada uno representa la carta virtual en el navegador. Esta cuenta con las siguientes etiquetas a modificar.![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.009.png)![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.010.png)![](Aspose.Words.7828b270-7e90-4d62-a082-122ed286abea.011.png)
 
 Nuevamente el elemento **<img>** a éste únicamente le modificaremos el atributo **src=""** con la ruta a la imagen que elijamos. 
 
